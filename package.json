@@ -1,0 +1,30 @@
+{
+  "name": "sharmila_ldp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.5.0"
+  },
+  "devDependencies": {
+    "@ssense/cucumber-testrail-sync": "^3.0.6",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "salty-cypress-testrail-reporter": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zemoso-int/sharmila_ldp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zemoso-int/sharmila_ldp/issues"
+  },
+  "homepage": "https://github.com/zemoso-int/sharmila_ldp#readme",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

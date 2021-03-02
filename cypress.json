@@ -1,0 +1,13 @@
+{
+"testFiles": "**/*.feature",
+"reporter": "salty-cypress-testrail-reporter",
+"reporterOptions": {
+  "domain": "testerdeepthiballa.testrail.io",
+  "username": "sharmila.koppula@zemosolabs.com",
+  "password": "sharmi4B8456!",
+  "projectId": 2,
+  "suiteId": 8,
+  "createTestRun": true,
+  "runName": "Testabc"
+}    
+}
