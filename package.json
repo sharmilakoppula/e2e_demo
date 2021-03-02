@@ -12,7 +12,7 @@
     "salty-cypress-testrail-reporter": "^1.4.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run --config-file cypress.json"
   },
   "repository": {
     "type": "git",
